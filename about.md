@@ -8,7 +8,7 @@ title: 关于我
 平时喜欢看看职业比赛，追追美剧
 <p>
 <h3> 博客说明 </h3>  
-本博客采用了[leopard](http://baixin.io) 的模板
+本博客采用了<a href="http://baixin.io">leopard</a> 的模板
 <p>
 
 
