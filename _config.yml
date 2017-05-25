@@ -68,4 +68,4 @@ paginate_path: "page/:num/"
 
 
 
-theme_settings: jekyll-theme-cayman
+theme: jekyll-theme-cayman
