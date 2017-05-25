@@ -10,7 +10,7 @@ url: "http://wanzijinx.github.io"
 
 # Comment
 comments:
-    provider: custom
+    disqus: jinxx
 
 # Social
 social:

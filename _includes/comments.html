@@ -1,28 +1,4 @@
----
-layout: default
-comments: true
----
-
-<article class="post-container post-container--single" itemscope itemtype="http://schema.org/BlogPosting">
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <div class="post-meta">
-      <img src="/images/calendar.png" width="20px"/> 
-      <time datetime="{{page.date | date: date_to_xmlschema}}" itemprop="datePublished" class="post-meta__date date">{{page.date | date: "%F"}}</time>  
-         
-      <span id="busuanzi_container_page_pv"> | 阅读：<span id="busuanzi_value_page_pv"></span>次</span>
-    </p>
-    </div>
-  </header>
-
-  <section class="post">
-    {{ content }}
-
-  </section>
-</article>
-
-{% include new-old.html %}
-{% if page.comments %}
+<section class="post-comments">
 <div id="disqus_thread"></div>
 <script>
 
@@ -43,6 +19,3 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-{% end if %}
-{% include comments.html %}
-
