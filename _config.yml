@@ -9,9 +9,8 @@ avatarDesc: EDG
 url: "http://wanzijinx.github.io"
 
 # Comment
-comment:
-    disqus: 
-    duoshuo: jinx
+comments:
+    provider: custom
 
 # Social
 social:
