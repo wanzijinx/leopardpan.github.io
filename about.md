@@ -1,5 +1,6 @@
 ---
 layout: page
+<<<<<<< HEAD
 title: 关于我 
 ---
 
@@ -14,5 +15,15 @@ title: 关于我
 
 {% include comments.html %}
 
+=======
+title: 关于我
+permalink: /about/
+---
+嘿嘿嘿
+ 想了解我，请点击
+
+
+[微博](https://github.com/jekyll/minima)
+>>>>>>> fc3cf4440b333ece76c1e914d14ad95649484eab
 
 
