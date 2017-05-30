@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jekyll搭建个人博客
+title: Jekyll搭建个人博客by潘柏信
 date: 2016-10-14 
 tags: 博客   
 ---
